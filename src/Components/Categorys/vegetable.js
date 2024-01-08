@@ -63,6 +63,7 @@ function Vegetable() {
         <div>
             <Navbar />
 
+<h1>Hii larans</h1>
             <img src={vegposter} alt='veg-poster' style={{width:"100%"}} ></img>
             <div id='list'>
                 {vegetables.map((data, index) => (
