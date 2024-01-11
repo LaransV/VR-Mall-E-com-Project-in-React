@@ -22,6 +22,7 @@ import Travel from './Components/Categorys/Travel';
 import Utensils from './Components/Categorys/Utensils';
 import Cart from './Components/Cart';
 import Pay from './Components/Pay';
+import Pay1 from './Components/Pay1';
 
 
 function App() {
@@ -33,10 +34,11 @@ function App() {
         <Routes>
             <Route exact path='/' element={<Login/>}></Route>
             <Route path='/loginpage' element={<LogInPage/>}></Route>
+            {/* <Route path="/home" element={<Home/>}/> */}
             
-            {regName || adminName ? <Route path="/home" element={<Home/>}/> : <Route path="/login" element={<LogInPage />} /> }
+            {regName || adminName ? <Route path="/home" element={<Home/>}/> : <Route path="/loginpage" element={<LogInPage />} /> }
 
-            <Route path="/login" element={<LogInPage />} />
+            {/* <Route path="/login" element={<LogInPage />} /> */}
             <Route path='/vegetable' element={<Vegetable/>}></Route>
             <Route path='/about' element={<About/>}></Route>
             <Route path='/atta' element={<Atta/>}></Route>
@@ -56,6 +58,7 @@ function App() {
             <Route path='/utensils' element={<Utensils/>}></Route>
             <Route path='/cart' element={<Cart/>}></Route>
             <Route path='/pay' element={<Pay/>}></Route>
+            <Route path='/pay1' element={<Pay1/>}></Route>
         </Routes>
     </BrowserRouter>
   

@@ -6,19 +6,19 @@ import ph4 from '../image/Home/add3.webp';
 import ph5 from '../image/Home/add4.webp';
 import Footer from './Footer';
 import { useState } from 'react';
-import datajson from '../JsonFiles/home.json'
+import jsonData from '../JsonFiles/home.json'
 import { Link } from 'react-router-dom';
 import '../Components/Categorys/Common.css';
 
 function Home() {
 
-    sessionStorage.setItem('jsonData', JSON.stringify(datajson));
+    //sessionStorage.setItem('jsonData', JSON.stringify(datajson));
 
     const [categorys, setCategorys] = useState([]);
 
     useEffect(() => {
 
-        const storedData = JSON.parse(sessionStorage.getItem('jsonData')) || [];
+        const storedData = jsonData || [];
         setCategorys(storedData[0]?.category || []);
 
     }, []);
@@ -29,11 +29,12 @@ function Home() {
                 <Navbar />
             </div>
 
+
             <div>
-                {/* <!-- Carousel --> */}
+ 
                 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-                    {/* <!-- Indicators/dots --> */}
+                    
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -41,7 +42,7 @@ function Home() {
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
                     </div>
 
-                    {/* <!-- The slideshow/carousel --> */}
+                    
                     <div class="carousel-inner" >
                         <div class="carousel-item active">
                             <img src={ph5} alt="Los Angeles" class="d-block w-100" style={{ height: '300px' }} />
@@ -58,7 +59,7 @@ function Home() {
 
                     </div>
 
-                    {/* <!-- Left and right controls/icons --> */}
+
                     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </button>
@@ -74,9 +75,8 @@ function Home() {
             <div id='Home'>
                 {categorys.map((productData, index) => (
                     <div className="homeproduct" key={index}>
-                        {/* <h5>{productData.name}</h5> */}
+                        
                         <Link to={productData.pathname} style={{ color: "white", textDecoration: "none" }}> <img style={{ width: "250px", height: "400" }} src={productData.image} alt={productData.name} /></Link>
-                        {/* <button className="btn btn-primary" ><Link to={productData.pathname} style={{ color: "white", textDecoration: "none" }}> View </Link></button> */}
                     </div>
                 ))}
             </div>

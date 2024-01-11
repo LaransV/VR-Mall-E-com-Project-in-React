@@ -10,9 +10,10 @@ import { useNavigate } from 'react-router-dom';
 
 function LogInPage() {
   const navigate = useNavigate();
-
+ //Default Admin Name and Password
   const [adminame, setAdminame] = useState("Larans");
   const [admipassword, setAdmipassword] = useState(123)
+
   sessionStorage.setItem('adminName', adminame);
   sessionStorage.setItem('adminPassword' , admipassword)
 
@@ -20,7 +21,7 @@ function LogInPage() {
 
   const [name, setName] = useState("");
   const [password, setPassword] = useState("")
-  // sessionStorage.setItem('name', name);
+  sessionStorage.setItem('name', name);
 
   // register from validation
   const [registerName, setRegisterName] = useState("");
@@ -46,6 +47,7 @@ function LogInPage() {
       alert("Passwords do not match");
       return;
     }
+
     sessionStorage.setItem('registeredName', registerName);
     sessionStorage.setItem('registeredPassword', registerPassword);
     sessionStorage.setItem('confirmPassword', confirmPassword);
@@ -56,7 +58,7 @@ function LogInPage() {
     setConfirmPassword('');
     setEmail('');
 
-    alert('Registration Successful');
+    alert('Congratulations! Your Registration Was Successful');
    
   };
 
@@ -82,6 +84,7 @@ function LogInPage() {
       else {
       alert("Invalid Name and Password Please SingnUp and then LogIn.");
     }
+
   };
 
  const Navi = ()=>{
@@ -124,7 +127,7 @@ function LogInPage() {
 
         {/* Modal for SignUp */}
 
-        <div className="modal" id="myModal" style={{ color: 'black' }}>
+        <div className="modal fade" id="myModal" style={{ color: 'black' }}>
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
@@ -155,20 +158,23 @@ function LogInPage() {
                 </div>
 
                 <div style={{ margintap: '40px', marginRight: '100px', textAlign: 'center' }}>
-                  <button type="submit" className="btn btn-primary">Register</button>
+                  <button type="submit" className="btn btn-primary">Register</button> 
                 </div>
 
               </div>
            </form>
               <div className="modal-footer">
                 <p style={{ fontSize: '18px' }}>Already you have an Account</p>
-                <button type='button' className='btn btn-primary' data-bs-dismiss="modal" >  LogIn </button>
+                <button type='button' className='btn btn-primary' data-bs-dismiss="modal" onClick={Navi} >  LogIn </button>
                 <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
         </div>
+       
       </div>
+
+     
     </>
   )
 }
