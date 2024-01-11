@@ -109,8 +109,6 @@ function Pay() {
             </div>
           </div>
 
-
-
         </div>
         <Footer />
       </div>

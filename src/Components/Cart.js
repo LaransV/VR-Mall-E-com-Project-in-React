@@ -24,7 +24,7 @@ function Cart() {
 
     return (
         <div>
-            <Navbar/>
+            <Navbar />
             {item && item.length > 0 ? (
                 <div id='list'>
                     {item.map((data, index) => (
@@ -56,7 +56,7 @@ function Cart() {
             ) : (
                 <h2 style={{ textAlign: 'center', margin: '130px auto' }}>Your Cart is Empty</h2>
             )}
-            <Footer/>
+            <Footer />
         </div>
     );
 }

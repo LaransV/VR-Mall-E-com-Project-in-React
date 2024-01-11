@@ -3,1253 +3,1240 @@
         "category": [
             {
                 "image": "/images/Home/veg.jpg",
-                "pathname" :"/vegetable"
+                "pathname": "/vegetable"
             },
             {
                 "image": "/images/Home/Atta-Dal-Oil-And-Rice.webp",
-                "pathname" :"/atta"
+                "pathname": "/atta"
             },
             {
                 "image": "/images/Home/Fish-and-Meat.webp",
-                "pathname" :"/fish"
+                "pathname": "/fish"
             },
             {
                 "image": "/images/Home/Daily-Essentials.webp",
-                "pathname" :"/daily"
+                "pathname": "/daily"
             },
             {
                 "image": "/images/Home/Cookware-and-Serveware.webp",
-                "pathname" :"/cookware"
+                "pathname": "/cookware"
             },
             {
                 "image": "/images/Home/Gas-Stoves-and-range.webp",
-                "pathname" :"/gas"
+                "pathname": "/gas"
             },
             {
                 "image": "/images/Home/Home-Care.webp",
-                "pathname" :"/homecare"
+                "pathname": "/homecare"
             },
             {
                 "image": "/images/Home/Juicer-Mixer-Blenders.webp",
-                "pathname" :"/mixer"
+                "pathname": "/mixer"
             },
             {
                 "image": "/images/Home/Masala-&-Dry-Fruits.webp",
-                "pathname" :"/masala"
+                "pathname": "/masala"
             },
             {
                 "image": "/images/Home/Munchies-and-Biscuits.webp",
-                "pathname" :"/biscuits"
+                "pathname": "/biscuits"
             },
             {
                 "image": "/images/Home/Packaged-Food.webp",
-                "pathname" :"/packagedfood"
+                "pathname": "/packagedfood"
             },
             {
                 "image": "/images/Home/Soft-Drinks-and-Juices.webp",
-                "pathname" :"/drinks"
+                "pathname": "/drinks"
             },
             {
                 "image": "/images/Home/Tableware-and-dinnerware.webp",
-                "pathname" :"/tableware"
+                "pathname": "/tableware"
             },
             {
                 "image": "/images/Home/Tea-coffee-and-more.webp",
-                "pathname" :"/tea"
+                "pathname": "/tea"
             },
             {
                 "image": "/images/Home/Travel-and-Lugguage.webp",
-                "pathname" :"/travel"
+                "pathname": "/travel"
             },
             {
                 "image": "/images/Home/Utensils.webp",
-                "pathname" :"/utensils"
-            }
-        ]
-    },
-
-    {
-        "vegetable":[
-            {
-                "id":"1",
-                "name":"Tomato 1Kg",
-                "image":"/images/Vegetable/tomato.webp",
-                "price":"30"
-            },
-            {
-                "id":"2",
-                "name":"Ginger 500g",
-                "image":"/images/Vegetable/ginger.webp",
-                "price":"100"
-            },
-            {
-                "id":"3",
-                "name":"Beans 1Kg",
-                "image":"/images/Vegetable/beans.webp",
-                "price":"40"
-            },
-            {
-                "id":"4",
-                "name":"Beetroot 250g",
-                "image":"/images/Vegetable/beetroot.webp",
-                "price":"20"
-            },
-            {
-                "id":"5",
-                "name":"Brinjal 500g",
-                "image":"/images/Vegetable/brinjal.webp",
-                "price":"30"
-            },
-            {
-                "id":"6",
-                "name":"Broccoli 500g",
-                "image":"/images/Vegetable/broccoli.avif",
-                "price":"50"
-            },
-            {
-                "id":"7",
-                "name":"Cabbage 1Kg",
-                "image":"/images/Vegetable/cabbage.webp",
-                "price":"75"
-            },
-            {
-                "id":"8",
-                "name":"Carrot 500g",
-                "image":"/images/Vegetable/carrot.avif",
-                "price":"45"
-            },
-            {
-                "id":"9",
-                "name":"Capsicum Green 250g",
-                "image":"/images/Vegetable/capsicum-green.webp",
-                "price":"30"
-            },
-            {
-                "id":"10",
-                "name":"Cauliflower 1Kg",
-                "image":"/images/Vegetable/cauliflower.webp",
-                "price":"50"
-            },
-            {
-                "id":"11", 
-                "name":"Chilli Green 250g",
-                "image":"/images/Vegetable/chilli-green.webp",
-                "price":"20"
-            },
-            {
-                "id":"12",
-                "name":"Chow Chow 500g",
-                "image":"/images/Vegetable/chow chow.webp",
-                "price":"30"
-            },
-            {
-                "id":"13",
-                "name":"Cucumber 1Kg",
-                "image":"/images/Vegetable/cucumber.webp",
-                "price":"40"
-            },
-            {
-                "id":"15",
-                "name":"Moringa 500g",
-                "image":"/images/Vegetable/moringa.webp",
-                "price":"35"
-            },
-            {
-                "id":"16",
-                "name":"Mushrooms 250g",
-                "image":"/images/Vegetable/mushrooms.webp",
-                "price":"45"
-            },
-            {
-                "id":"17",
-                "name":"Onion-Sambhar 1Kg",
-                "image":"/images/Vegetable/onion-sambhar.webp",
-                "price":"80"
-            },
-            {
-                "id":"18",
-                "name":"Onion 1Kg",
-                "image":"/images/Vegetable/onion.webp",
-                "price":"55"
-            },
-            {
-                "id":"19",
-                "name":"Potato",
-                "image":"/images/Vegetable/potato.avif",
-                "price":"60"
-            }
-
-        ]
-    },
-    {
-        "fruits":[
-            {
-                "id":"21",
-                "name":"Apple Red 1Kg",
-                "image":"/images/Fruits/apple red.avif",
-                "price":"90"
-            },
-            {
-                "id":"22",
-                "name":"Banana 6 Pcs",
-                "image":"/images/Fruits/banana.avif",
-                "price":"30"
-            },
-            {
-                "id":"23",
-                "name":"Spar Fresh Pineapple 1Pc",
-                "image":"/images/Fruits/fresh pineapple 1pc.avif",
-                "price":"40"
-            },
-            {
-                "id":"24",
-                "name":"Spar Fresh Grapes 500Gm",
-                "image":"/images/Fruits/grapes.avif",
-                "price":"99"
-            },
-            {
-                "id":"25",
-                "name":"Guava Prepack 500g",
-                "image":"/images/Fruits/guava prepack.avif",
-                "price":"45"
-            },
-            {
-                "id":"26",
-                "name":"Apple 1Kg",
-                "image":"/images/Fruits/apple.avif",
-                "price":"100"
-            },
-            {
-                "id":"27",
-                "name":"Orange Kinnow 1Kg",
-                "image":"/images/Fruits/orange.avif",
-                "price":"90"
-            },
-            {
-                "id":"28",
-                "name":"Banana Red 4 Pcs",
-                "image":"/images/Fruits/banana red.avif",
-                "price":"60"
-            },
-            {
-                "id":"29",
-                "name":"Pear Beauty 500g",
-                "image":"/images/Fruits/pear beauty.avif",
-                "price":"70"
-            },
-            {
-                "id":"30",
-                "name":"Orange Nagpur 1Kg",
-                "image":"/images/Fruits/orange nagpur.avif",
-                "price":"80"
-            },
-            {
-                "id":"31",
-                "name":"Pomegranate-Arakta 1Kg",
-                "image":"/images/Fruits/pomegranate-arakta.avif",
-                "price":"130"
-            },
-            {
-                "id":"32",
-                "name":"Sitaphal 1Kg",
-                "image":"/images/Fruits/sitaphal.avif",
-                "price":"70"
-            },
-            {
-                "id":"33",
-                "name":"Water Melon 1Kg",
-                "image":"/images/Fruits/water melon.avif",
-                "price":"25"
-            }
-           
-        ]
-    },
-    {
-        "Atta":[
-            {
-                "id":"34",
-                "name":"MRN Nirani Fresh Sugar 5KG",
-                "image":"/images/Atta, Dal, Oil & Rice/atta1.avif",
-                "price":"295"
-            },
-            {
-                "id":"35",
-                "name":"Gold Winner Sunflower Oil",
-                "image":"/images/Atta, Dal, Oil & Rice/at2.avif",
-                "price":"103"
-            },
-            {
-                "id":"36",
-                "name":"Spar Select Curd Chilli 100G",
-                "image":"/images/Atta, Dal, Oil & Rice/at3.avif",
-                "price":"55"
-            },
-            {
-                "id":"37",
-                "name":"Loose Bestprice Moong Dal 1Kg",
-                "image":"/images/Atta, Dal, Oil & Rice/at4.avif",
-                "price":"151"
-            },
-            {
-                "id":"38",
-                "name":"Spar Atta Whole Wheat 5Kg",
-                "image":"/images/Atta, Dal, Oil & Rice/at5.avif",
-                "price":"310"
-            },
-            {
-                "id":"39",
-                "name":"Spar Select Sesamum White 50g",
-                "image":"/images/Atta, Dal, Oil & Rice/at6.avif",
-                "price":"25"
-            },
-            {
-                "id":"40",
-                "name":"Loose Bestprice Tur Dal 1Kg",
-                "image":"/images/Atta, Dal, Oil & Rice/at7.avif",
-                "price":"175"
-            },
-            {
-                "id":"41",
-                "name":"Fortune Chakki Fresh Atta 2Kg",
-                "image":"/images/Atta, Dal, Oil & Rice/at8.avif",
-                "price":"110"
-            },
-            {
-                "id":"42",
-                "name":"Loose Bestprice Sugar 1Kg",
-                "image":"/images/Atta, Dal, Oil & Rice/at9.avif",
-                "price":"44.50"
+                "pathname": "/utensils"
             }
         ]
     },
     {
-        "biscuits":[
+        "vegetable": [
             {
-                "id":"44",
-                "name":"Dukes Ranch Cracker 150g",
-                "image":"/images/Biscuits/b1.avif",
-                "price":"30"
+                "id": "1",
+                "name": "Tomato 1Kg",
+                "image": "/images/Vegetable/tomato.webp",
+                "price": "30"
             },
             {
-                "id":"45",
-                "name":"Unibic Choco-Nut Cookies 75g",
-                "image":"/images/Biscuits/b2.avif",
-                "price":"22"
+                "id": "2",
+                "name": "Ginger 500g",
+                "image": "/images/Vegetable/ginger.webp",
+                "price": "100"
             },
             {
-                "id":"46",
-                "name":"Dukes Waffy Atc Chocolate 75g",
-                "image":"/images/Biscuits/b3.avif",
-                "price":"37"
+                "id": "3",
+                "name": "Beans 1Kg",
+                "image": "/images/Vegetable/beans.webp",
+                "price": "40"
             },
             {
-                "id":"47",
-                "name":"Parle Hide & Seek Coffee 120g",
-                "image":"/images/Biscuits/b4.avif",
-                "price":"25"
+                "id": "4",
+                "name": "Beetroot 250g",
+                "image": "/images/Vegetable/beetroot.webp",
+                "price": "20"
             },
             {
-                "id":"48",
-                "name":"Mcvities Digestive 4+1 100G",
-                "image":"/images/Biscuits/b5.avif",
-                "price":"75"
+                "id": "5",
+                "name": "Brinjal 500g",
+                "image": "/images/Vegetable/brinjal.webp",
+                "price": "30"
             },
             {
-                "id":"49",
-                "name":"Mcvities ginger Cookies 120g",
-                "image":"/images/Biscuits/b6.avif",
-                "price":"37"
+                "id": "6",
+                "name": "Broccoli 500g",
+                "image": "/images/Vegetable/broccoli.avif",
+                "price": "50"
             },
             {
-                "id":"50",
-                "name":"Dark Cookies Cream 120g",
-                "image":"/images/Biscuits/b7.avif",
-                "price":"45"
+                "id": "7",
+                "name": "Cabbage 1Kg",
+                "image": "/images/Vegetable/cabbage.webp",
+                "price": "75"
             },
             {
-                "id":"51",
-                "name":"Parle Digetsive Marie 120g",
-                "image":"/images/Biscuits/b8.avif",
-                "price":"15"
+                "id": "8",
+                "name": "Carrot 500g",
+                "image": "/images/Vegetable/carrot.avif",
+                "price": "45"
             },
             {
-                "id":"52",
-                "name":"Dukes Nibble Biscuit 150g",
-                "image":"/images/Biscuits/b9.avif",
-                "price":"49"
+                "id": "9",
+                "name": "Capsicum Green 250g",
+                "image": "/images/Vegetable/capsicum-green.webp",
+                "price": "30"
             },
             {
-                "id":"53",
-                "name":"Milk Almond 75Gm",
-                "image":"/images/Biscuits/b10.avif",
-                "price":"21"
+                "id": "10",
+                "name": "Cauliflower 1Kg",
+                "image": "/images/Vegetable/cauliflower.webp",
+                "price": "50"
             },
             {
-                "id":"54",
-                "name":"Oreo Chocolate Biscuit 300g",
-                "image":"/images/Biscuits/b11.avif",
-                "price":"85"
+                "id": "11",
+                "name": "Chilli Green 250g",
+                "image": "/images/Vegetable/chilli-green.webp",
+                "price": "20"
             },
             {
-                "id":"55",
-                "name":"Orion Chocopie 336Gm",
-                "image":"/images/Biscuits/b12.avif",
-                "price":"145"
+                "id": "12",
+                "name": "Chow Chow 500g",
+                "image": "/images/Vegetable/chow chow.webp",
+                "price": "30"
+            },
+            {
+                "id": "13",
+                "name": "Cucumber 1Kg",
+                "image": "/images/Vegetable/cucumber.webp",
+                "price": "40"
+            },
+            {
+                "id": "15",
+                "name": "Moringa 500g",
+                "image": "/images/Vegetable/moringa.webp",
+                "price": "35"
+            },
+            {
+                "id": "16",
+                "name": "Mushrooms 250g",
+                "image": "/images/Vegetable/mushrooms.webp",
+                "price": "45"
+            },
+            {
+                "id": "17",
+                "name": "Onion-Sambhar 1Kg",
+                "image": "/images/Vegetable/onion-sambhar.webp",
+                "price": "80"
+            },
+            {
+                "id": "18",
+                "name": "Onion 1Kg",
+                "image": "/images/Vegetable/onion.webp",
+                "price": "55"
+            },
+            {
+                "id": "19",
+                "name": "Potato",
+                "image": "/images/Vegetable/potato.avif",
+                "price": "60"
             }
         ]
     },
     {
-        "cookware":[
+        "fruits": [
             {
-                "id":"57",
-                "name":" Non Stick Dosa Tawa",
-                "image":"/images/Cookware & Serveware/cook1.avif",
-                "price":"299"
+                "id": "21",
+                "name": "Apple Red 1Kg",
+                "image": "/images/Fruits/apple red.avif",
+                "price": "90"
             },
             {
-                "id":"58",
-                "name":"Nav Ns Kadai 2.2",
-                "image":"/images/Cookware & Serveware/cook2.avif",
-                "price":"289"
+                "id": "22",
+                "name": "Banana 6 Pcs",
+                "image": "/images/Fruits/banana.avif",
+                "price": "30"
             },
             {
-                "id":"59",
-                "name":"Navrang Kadai Mini",
-                "image":"/images/Cookware & Serveware/cook3.avif",
-                "price":"199"
+                "id": "23",
+                "name": "Spar Fresh Pineapple 1Pc",
+                "image": "/images/Fruits/fresh pineapple 1pc.avif",
+                "price": "40"
             },
             {
-                "id":"60",
-                "name":"Navrang Dosa Tava Mini",
-                "image":"/images/Cookware & Serveware/cook4.avif",
-                "price":"199"
+                "id": "24",
+                "name": "Spar Fresh Grapes 500Gm",
+                "image": "/images/Fruits/grapes.avif",
+                "price": "99"
             },
             {
-                "id":"61",
-                "name":"Navrang sauce pan",
-                "image":"/images/Cookware & Serveware/cook5.avif",
-                "price":"222"
+                "id": "25",
+                "name": "Guava Prepack 500g",
+                "image": "/images/Fruits/guava prepack.avif",
+                "price": "45"
             },
             {
-                "id":"62",
-                "name":"Non Stick Sauce Pan Large",
-                "image":"/images/Cookware & Serveware/cook8.avif",
-                "price":"299"
+                "id": "26",
+                "name": "Apple 1Kg",
+                "image": "/images/Fruits/apple.avif",
+                "price": "100"
             },
             {
-                "id":"63",
-                "name":"Fry Pan 230 Dia 40Mm",
-                "image":"/images/Cookware & Serveware/cook9.avif",
-                "price":"299"
+                "id": "27",
+                "name": "Orange Kinnow 1Kg",
+                "image": "/images/Fruits/orange.avif",
+                "price": "90"
             },
             {
-                "id":"64",
-                "name":"Nonstick Tadka Pan",
-                "image":"/images/Cookware & Serveware/cook10.avif",
-                "price":"199"
+                "id": "28",
+                "name": "Banana Red 4 Pcs",
+                "image": "/images/Fruits/banana red.avif",
+                "price": "60"
             },
             {
-                "id":"65",
-                "name":"Hard Annodized Fry Pan",
-                "image":"/images/Cookware & Serveware/cook11.avif",
-                "price":"570"
+                "id": "29",
+                "name": "Pear Beauty 500g",
+                "image": "/images/Fruits/pear beauty.avif",
+                "price": "70"
             },
             {
-                "id":"66",
-                "name":"Navrang Appachatty",
-                "image":"/images/Cookware & Serveware/cook12.avif",
-                "price":"479"
+                "id": "30",
+                "name": "Orange Nagpur 1Kg",
+                "image": "/images/Fruits/orange nagpur.avif",
+                "price": "80"
             },
             {
-                "id":"67",
-                "name":"Hawkins Ha Tava 26 Cm",
-                "image":"/images/Cookware & Serveware/cook13.avif",
-                "price":"799"
-            }
-            
-        ]
-    },
-    {
-        "daily":[
-            {
-                "id":"68",
-                "name":"Amul Butter 100Gms",
-                "image":"/images/Daily Essensials/amul butter.avif",
-                "price":"45"
-            },
-            {
-                "id":"69",
-                "name":"Amul Chesse Spread 200Gms",
-                "image":"/images/Daily Essensials/amul chesse.avif",
-                "price":"60"
-            },
-            {
-                "id":"70",
-                "name":"Amul Kool Rose 200ml Pet",
-                "image":"/images/Daily Essensials/amul kool.avif",
-                "price":"55"
-            },
-            {
-                "id":"71",
-                "name":"Amul Kool 100ml",
-                "image":"/images/Daily Essensials/amul.avif",
-                "price":"70"
-            },
-            {
-                "id":"72",
-                "name":"Cavin's 100Ml",
-                "image":"/images/Daily Essensials/cavins.avif",
-                "price":"54"
-            },
-            {
-                "id":"73",
-                "name":"Epigamia Strawberry 200ml",
-                "image":"/images/Daily Essensials/epiga smooth.avif",
-                "price":"80"
-            },
-            {
-                "id":"74",
-                "name":"Epigamia Artisanal Curd 400Gm",
-                "image":"/images/Daily Essensials/epigamia.avif",
-                "price":"100"
-            },
-            {
-                "id":"75",
-                "name":"Heritge Rich-Fcm 500ml",
-                "image":"/images/Daily Essensials/heritge rich-fcm 500ml.avif",
-                "price":"130"
-            },
-            {
-                "id":"76",
-                "name":"Milky Mist Paneer 200g",
-                "image":"/images/Daily Essensials/milky mist paneer 200g.avif",
-                "price":"125"
-            },
-            {
-                "id":"77",
-                "name":"Milky Mist Butter 500g",
-                "image":"/images/Daily Essensials/milky mist table.avif",
-                "price":"180"
-            },
-            {
-                "id":"78",
-                "name":"Nestle Milo Rtd 180ml",
-                "image":"/images/Daily Essensials/nestle milo rtd 180ml.avif",
-                "price":"30"
-            },
-            {
-                "id":"79",
-                "name":"Nutoras Processed Cheese 200G",
-                "image":"/images/Daily Essensials/nutoras.avif",
-                "price":"190"
-            }
-
-        ]
-    },
-    {
-        "drinks":[
-            {
-                "id":"82",
-                "name":"Thums Up 2L",
-                "image":"/images/Drinks and Juices/d1.avif",
-                "price":"75"
-            },
-            {
-                "id":"83",
-                "name":"Red Bull Yellow Edition 250ml",
-                "image":"/images/Drinks and Juices/d2.avif",
-                "price":"125"
-            },
-            {
-                "id":"84",
-                "name":"Sprite",
-                "image":"/images/Drinks and Juices/d3.avif",
-                "price":"40"
-            },
-            {
-                "id":"85",
-                "name":"Coca-Cola 2L",
-                "image":"/images/Drinks and Juices/d4.avif",
-                "price":"99"
-            },
-            {
-                "id":"86",
-                "name":"Fanta 2L",
-                "image":"/images/Drinks and Juices/d5.avif",
-                "price":"75"
-            },
-            {
-                "id":"87",
-                "name":"Sprite 1.25 Lt",
-                "image":"/images/Drinks and Juices/d6.avif",
-                "price":"70"
-            },
-            {
-                "id":"88",
-                "name":"Red Bull Energy Drink 250ml*4",
-                "image":"/images/Drinks and Juices/d7.avif",
-                "price":"480"
-            },
-            {
-                "id":"89",
-                "name":"Maaza Refresh 150 Ml",
-                "image":"/images/Drinks and Juices/d8.avif",
-                "price":"10"
-            },
-            {
-                "id":"90",
-                "name":"Thums Up Can 300ml",
-                "image":"/images/Drinks and Juices/d9.avif",
-                "price":"40"
-            },
-            {
-                "id":"91",
-                "name":"Bovonto 1.5Ltrs",
-                "image":"/images/Drinks and Juices/d10.avif",
-                "price":"80"
-            },
-            {
-                "id":"93",
-                "name":"Fanta oriange 100 Ml",
-                "image":"/images/Drinks and Juices/d12.avif",
-                "price":"25"
-            },
-            {
-                "id":"94",
-                "name":"Coca Cola 1.25 Lt",
-                "image":"/images/Drinks and Juices/d13.avif",
-                "price":"70"
-            }
-
-        ]
-    },
-    {
-        "fish":[
-            {
-                "id":"95",
-                "name":"Atlantic Salmon Slice",
-                "image":"/images/Fish and Meat/fish1.avif",
-                "price":"674"
-            },
-            {
-                "id":"96",
-                "name":"Hilsa / Ilish Large",
-                "image":"/images/Fish and Meat/fish2.avif",
-                "price":"450"
-            },
-            {
-                "id":"97",
-                "name":"Chicken Broiler Curry Cut",
-                "image":"/images/Fish and Meat/chicken1.avif",
-                "price":"135"
-            },
-            {
-                "id":"98",
-                "name":"Abhi Eggs",
-                "image":"/images/Fish and Meat/egg7.avif",
-                "price":"80"
-            },
-            {
-                "id":"100",
-                "name":"Mullet Whole",
-                "image":"/images/Fish and Meat/fish4.avif",
-                "price":"430"
-            },
-            {
-                "id":"101",
-                "name":"Paiya Whole",
-                "image":"/images/Fish and Meat/fish5.avif",
-                "price":"230"
-            },
-            {
-                "id":"102",
-                "name":"Silver Belly Whole",
-                "image":"/images/Fish and Meat/fish6.avif",
-                "price":"185"
-            },
-            {
-                "id":"103",
-                "name":"Rohu Whole",
-                "image":"/images/Fish and Meat/fish8.avif",
-                "price":"236"
-            },
-            {
-                "id":"104",
-                "name":"White Prawns Whole",
-                "image":"/images/Fish and Meat/fish10.avif",
-                "price":"243"
-            },
-            {
-                "id":"105",
-                "name":"Sardine Whole",
-                "image":"/images/Fish and Meat/fish11.avif",
-                "price":"114.50"
-            },
-            {
-                "id":"106",
-                "name":"Charapone Whole",
-                "image":"/images/Fish and Meat/fish12.avif",
-                "price":"250"
-            },
-            {
-                "id":"107",
-                "name":"Thengda Whole",
-                "image":"/images/Fish and Meat/fish13.avif",
-                "price":"184"
-            }
-
-        ]
-    },
-    {
-        "gas":[
-            {
-                "id":"108",
-                "name":"Prestige Marvel Plus 3 Burner Gas Stove Black Body",
-                "image":"/images/Gas stoves & range/gas4.avif",
-                "price":"5,057.50"
-            },
-            {
-                "id":"110",
-                "name":"Prestige Magic 4 Burner Gas Stove Glasstop",
-                "image":"/images/Gas stoves & range/gas5.avif",
-                "price":"5,277"
-            },
-            {
-                "id":"111",
-                "name":"Prestige Marvel Plus 2 Burner Gas Stove Black Body",
-                "image":"/images/Gas stoves & range/gas3.avif",
-                "price":"4,100"
-            },
-            {
-                "id":"112",
-                "name":"Master Perfect Stainless Steel Mini 2 Burner Gas Stove",
-                "image":"/images/Gas stoves & range/gas2.avif",
-                "price":"1,200"
-            },
-            {
-                "id":"113",
-                "name":"Prestige Stainless Steel Gas Stove Star 2 Burner",
-                "image":"/images/Gas stoves & range/gas1.avif",
-                "price":"2,330"
-            }
-
-        ]
-    },
-    {
-        "homecare":[
-            {
-                "id":"114",
-                "name":"Domex Toilet Cleaner 1L",
-                "image":"/images/Home Care/home1.avif",
-                "price":"235"
-            },
-            {
-                "id":"115",
-                "name":"Harpic Power Cleaner 1L",
-                "image":"/images/Home Care/home2.avif",
-                "price":"215"
-            },
-            {
-                "id":"116",
-                "name":"SPAR Home Cleaning Kit",
-                "image":"/images/Home Care/home3.avif",
-                "price":"152"
-            },
-            {
-                "id":"117",
-                "name":"Lizol Floor Cleaner Lavender 1L",
-                "image":"/images/Home Care/home4.avif",
-                "price":"220"
-            },
-            {
-                "id":"118",
-                "name":"Nimyle Floor Cleaner Herbal",
-                "image":"/images/Home Care/home5.avif",
-                "price":"175"
-            },
-            {
-                "id":"119",
-                "name":"Bp Phenyl Pine 1L Po2",
-                "image":"/images/Home Care/home6.avif",
-                "price":"110"
-            },
-            {
-                "id":"120",
-                "name":"Spar Toilet Cleaner Original 1L",
-                "image":"/images/Home Care/home7.avif",
-                "price":"199"
-            },
-            {
-                "id":"121",
-                "name":"Bp Rose Phenyl 5L",
-                "image":"/images/Home Care/home8.avif",
-                "price":"249"
-            },
-            {
-                "id":"122",
-                "name":"Bp Phenyl Lavendar 1L",
-                "image":"/images/Home Care/home9.avif",
-                "price":"140"
-            }
-
-        ]
-    },
-    {
-        "mixer":[
-            {
-                "id":"123",
-                "name":"Maharaja Mixer 3 Jar",
-                "image":"/images/Juicer Mixer/mix1.avif",
-                "price":"2,399"
-            },
-            {
-                "id":"124",
-                "name":"Preethi Zodiac MG-218 Mixer",
-                "image":"/images/Juicer Mixer/mix2.avif",
-                "price":"6,999"
-            },
-            {
-                "id":"125",
-                "name":"Crescent Electric Kettle 1.8L",
-                "image":"/images/Juicer Mixer/mix3.avif",
-                "price":"599"
-            },
-            {
-                "id":"126",
-                "name":"Maharaja Blender Easyblend",
-                "image":"/images/Juicer Mixer/mix4.avif",
-                "price":"1,699"
-            },
-            {
-                "id":"127",
-                "name":"Prestige 1500W 1.7L Kettle ",
-                "image":"/images/Juicer Mixer/mix5.avif",
-                "price":"849"
-            },
-            {
-                "id":"128",
-                "name":"Prestige 1.5L Steel Kettle",
-                "image":"/images/Juicer Mixer/mix6.avif",
-                "price":"649"
-            }
-
-        ]
-    },
-    {
-        "masala":[
-            {
-                "id":"129",
-                "name":"Sakthi Turmeric Powder 100g",
-                "image":"/images/Masala & Dry Fruits/m1.avif",
-                "price":"46"
-            },
-            {
-                "id":"130",
-                "name":"Select Sesamum White 50g",
-                "image":"/images/Masala & Dry Fruits/m2.avif",
-                "price":"25"
-            },
-            {
-                "id":"131",
-                "name":"Sakthi Bajji Bonda Masala 200g",
-                "image":"/images/Masala & Dry Fruits/m3.avif",
-                "price":"40"
-            },
-            {
-                "id":"132",
-                "name":"SPAR Coriander Powder",
-                "image":"/images/Masala & Dry Fruits/m4.avif",
-                "price":"30"
-            },
-            {
-                "id":"133",
-                "name":"Sakthi Rasam Powder 100g",
-                "image":"/images/Masala & Dry Fruits/m5.avif",
-                "price":"80"
-            },
-            {
-                "id":"134",
-                "name":"Spar Select Ajwain 50g",
-                "image":"/images/Masala & Dry Fruits/m6.avif",
-                "price":"28"
-            },
-            {
-                "id":"135",
-                "name":"Sakthi Black Pepper 50g",
-                "image":"/images/Masala & Dry Fruits/m7.avif",
-                "price":"68"
-            },
-            {
-                "id":"136",
-                "name":"Sakthi Coriander Powder",
-                "image":"/images/Masala & Dry Fruits/m8.avif",
-                "price":"38"
-            },
-            {
-                "id":"137",
-                "name":"Mtr Special garam Masala 50g",
-                "image":"/images/Masala & Dry Fruits/m9.avif",
-                "price":"55"
-            },
-            {
-                "id":"138",
-                "name":"Spar Select Biryani Phool 50g",
-                "image":"/images/Masala & Dry Fruits/m10.avif",
-                "price":"69"
+                "id": "31",
+                "name": "Pomegranate-Arakta 1Kg",
+                "image": "/images/Fruits/pomegranate-arakta.avif",
+                "price": "130"
             },
             {
-                "id":"139",
-                "name":"Sakthi Sambar Powder 100g",
-                "image":"/images/Masala & Dry Fruits/m11.avif",
-                "price":"55"
+                "id": "32",
+                "name": "Sitaphal 1Kg",
+                "image": "/images/Fruits/sitaphal.avif",
+                "price": "70"
             },
             {
-                "id":"140",
-                "name":"Sakthi Biriyani Masala 50g",
-                "image":"/images/Masala & Dry Fruits/m12.avif",
-                "price":"46"
+                "id": "33",
+                "name": "Water Melon 1Kg",
+                "image": "/images/Fruits/water melon.avif",
+                "price": "25"
             }
         ]
     },
     {
-        "packagedfood":[
+        "Atta": [
             {
-                "id":"142",
-                "name":"Maggi Masala Noodles 560g",
-                "image":"/images/Packaged Food/food1.avif",
-                "price":"100"
+                "id": "34",
+                "name": "MRN Nirani Fresh Sugar 5KG",
+                "image": "/images/Atta, Dal, Oil & Rice/atta1.avif",
+                "price": "295"
             },
             {
-                "id":"143",
-                "name":"Quaker Oatmeal 1Kg Refill Pack",
-                "image":"/images/Packaged Food/food2.avif",
-                "price":"199"
+                "id": "35",
+                "name": "Gold Winner Sunflower Oil",
+                "image": "/images/Atta, Dal, Oil & Rice/at2.avif",
+                "price": "103"
             },
             {
-                "id":"144",
-                "name":"Elite Bar Cake Orange 120G",
-                "image":"/images/Packaged Food/food3.avif",
-                "price":"40"
+                "id": "36",
+                "name": "Spar Select Curd Chilli 100G",
+                "image": "/images/Atta, Dal, Oil & Rice/at3.avif",
+                "price": "55"
             },
             {
-                "id":"145",
-                "name":"Kellogg Corn Flakes",
-                "image":"/images/Packaged Food/food4.avif",
-                "price":"310"
+                "id": "37",
+                "name": "Loose Bestprice Moong Dal 1Kg",
+                "image": "/images/Atta, Dal, Oil & Rice/at4.avif",
+                "price": "151"
             },
             {
-                "id":"146",
-                "name":"Elite Bar Cake Chocolate 120G",
-                "image":"/images/Packaged Food/food5.avif",
-                "price":"45"
+                "id": "38",
+                "name": "Spar Atta Whole Wheat 5Kg",
+                "image": "/images/Atta, Dal, Oil & Rice/at5.avif",
+                "price": "310"
             },
             {
-                "id":"147",
-                "name":"Kelloggs Chocos",
-                "image":"/images/Packaged Food/food6.avif",
-                "price":"144"
+                "id": "39",
+                "name": "Spar Select Sesamum White 50g",
+                "image": "/images/Atta, Dal, Oil & Rice/at6.avif",
+                "price": "25"
             },
             {
-                "id":"148",
-                "name":"Kalonji Masala Paste 100g",
-                "image":"/images/Packaged Food/food7.avif",
-                "price":"59"
+                "id": "40",
+                "name": "Loose Bestprice Tur Dal 1Kg",
+                "image": "/images/Atta, Dal, Oil & Rice/at7.avif",
+                "price": "175"
             },
             {
-                "id":"149",
-                "name":"Maggi Masala Noodles 70g",
-                "image":"/images/Packaged Food/food8.avif",
-                "price":"15"
+                "id": "41",
+                "name": "Fortune Chakki Fresh Atta 2Kg",
+                "image": "/images/Atta, Dal, Oil & Rice/at8.avif",
+                "price": "110"
             },
             {
-                "id":"150",
-                "name":"Spar Tomato Ketchup 950gm",
-                "image":"/images/Packaged Food/food9.avif",
-                "price":"75"
-            },
-            {
-                "id":"151",
-                "name":"Nutella Choco Spread 350g",
-                "image":"/images/Packaged Food/food10.avif",
-                "price":"345"
-            },
-            {
-                "id":"152",
-                "name":"Kissan Mixed Fruit Jam",
-                "image":"/images/Packaged Food/food11.avif",
-                "price":"25"
-            },
-            {
-                "id":"153",
-                "name":"Peanut Butter Creamy 350g",
-                "image":"/images/Packaged Food/food12.avif",
-                "price":"145"
+                "id": "42",
+                "name": "Loose Bestprice Sugar 1Kg",
+                "image": "/images/Atta, Dal, Oil & Rice/at9.avif",
+                "price": "44.50"
             }
         ]
     },
     {
-        "tableware":[
+        "biscuits": [
             {
-                "id":"155",
-                "name":"LARAH DINNER SET OF 35",
-                "image":"/images/Tableware & Dinnerware/Table1.avif",
-                "price":"1,630"
+                "id": "44",
+                "name": "Dukes Ranch Cracker 150g",
+                "image": "/images/Biscuits/b1.avif",
+                "price": "30"
             },
             {
-                "id":"156",
-                "name":"CELLO IMPERIAL DINNER SET",
-                "image":"/images/Tableware & Dinnerware/Table2.avif",
-                "price":"1635"
+                "id": "45",
+                "name": "Unibic Choco-Nut Cookies 75g",
+                "image": "/images/Biscuits/b2.avif",
+                "price": "22"
             },
             {
-                "id":"157",
-                "name":"LARAH DINNER SET OF 12",
-                "image":"/images/Tableware & Dinnerware/Table3.avif",
-                "price":"599"
+                "id": "46",
+                "name": "Dukes Waffy Atc Chocolate 75g",
+                "image": "/images/Biscuits/b3.avif",
+                "price": "37"
             },
             {
-                "id":"158",
-                "name":"DINESMART SPIRAL MELAMINE DINNER SETS 29PC",
-                "image":"/images/Tableware & Dinnerware/Table4.avif",
-                "price":"1,190"
+                "id": "47",
+                "name": "Parle Hide & Seek Coffee 120g",
+                "image": "/images/Biscuits/b4.avif",
+                "price": "25"
             },
             {
-                "id":"159",
-                "name":"CELLO DAZZLE DINNER SET OF 22",
-                "image":"/images/Tableware & Dinnerware/Table5.avif",
-                "price":"1,099"
+                "id": "48",
+                "name": "Mcvities Digestive 4+1 100G",
+                "image": "/images/Biscuits/b5.avif",
+                "price": "75"
             },
             {
-                "id":"160",
-                "name":"LUMINARCSIMPLY KEON SS1 IND DINNER SET 21 PCS",
-                "image":"/images/Tableware & Dinnerware/Table6.avif",
-                "price":"2,999"
+                "id": "49",
+                "name": "Mcvities ginger Cookies 120g",
+                "image": "/images/Biscuits/b6.avif",
+                "price": "37"
             },
             {
-                "id":"161",
-                "name":"LUMI TEMP SODO ANDRIY BLACK DINNER SET 33 PCS",
-                "image":"/images/Tableware & Dinnerware/Table7.avif",
-                "price":"4,000"
+                "id": "50",
+                "name": "Dark Cookies Cream 120g",
+                "image": "/images/Biscuits/b7.avif",
+                "price": "45"
             },
             {
-                "id":"162",
-                "name":"LUMINARC TEMP SODO ELISA DINNER SET 21 PCS",
-                "image":"/images/Tableware & Dinnerware/Table8.avif",
-                "price":"2,500"
+                "id": "51",
+                "name": "Parle Digetsive Marie 120g",
+                "image": "/images/Biscuits/b8.avif",
+                "price": "15"
             },
             {
-                "id":"163",
-                "name":"LUMINARC TEMP SODO PEACHY DINNER SET 33 PCS",
-                "image":"/images/Tableware & Dinnerware/Table9.avif",
-                "price":"3,699"
+                "id": "52",
+                "name": "Dukes Nibble Biscuit 150g",
+                "image": "/images/Biscuits/b9.avif",
+                "price": "49"
             },
             {
-                "id":"164",
-                "name":"LARAH DINNER SET 10PCS",
-                "image":"/images/Tableware & Dinnerware/Table10.avif",
-                "price":"499"
+                "id": "53",
+                "name": "Milk Almond 75Gm",
+                "image": "/images/Biscuits/b10.avif",
+                "price": "21"
             },
             {
-                "id":"165",
-                "name":"EURO BUFFET PLATE 13 INCH",
-                "image":"/images/Tableware & Dinnerware/Table11.avif",
-                "price":"350"
+                "id": "54",
+                "name": "Oreo Chocolate Biscuit 300g",
+                "image": "/images/Biscuits/b11.avif",
+                "price": "85"
             },
             {
-                "id":"166",
-                "name":"HAMMER VEG BOWL BLACK",
-                "image":"/images/Tableware & Dinnerware/Table12.avif",
-                "price":"99"
-            },
-            {
-                "id":"167",
-                "name":"Rc Coffee Mug Black Single",
-                "image":"/images/Tableware & Dinnerware/Table13.avif",
-                "price":"59"
-            },
-            {
-                "id":"168",
-                "name":"COOKWELL SERVING BOWLSET",
-                "image":"/images/Tableware & Dinnerware/Table14.avif",
-                "price":"150"
-            }
-
-        ]
-    },
-    {
-        "tea":[
-            {
-                "id":"169",
-                "name":"Bru Inst Coffee 50Gms",
-                "image":"/images/Tea, Coffee and more/t1.avif",
-                "price":"115"
-            },
-            {
-                "id":"170",
-                "name":"Brookebond Redlabel Nat 250G",
-                "image":"/images/Tea, Coffee and more/t2.avif",
-                "price":"175"
-            },
-            {
-                "id":"171",
-                "name":"Green Label Coffee 100Gms",
-                "image":"/images/Tea, Coffee and more/t3.avif",
-                "price":"55"
-            },
-            {
-                "id":"172",
-                "name":"Brok Bnd Red Lbl500G",
-                "image":"/images/Tea, Coffee and more/t4.avif",
-                "price":"300"
-            },
-            {
-                "id":"173",
-                "name":"Brooke Taj Mahal Tea 500G",
-                "image":"/images/Tea, Coffee and more/t5.avif",
-                "price":"450"
-            },
-            {
-                "id":"174",
-                "name":"French Press Coffee 250G",
-                "image":"/images/Tea, Coffee and more/t6.avif",
-                "price":"490"
-            },
-            {
-                "id":"175",
-                "name":"Bru Coffee Instent 100Gms",
-                "image":"/images/Tea, Coffee and more/t7.avif",
-                "price":"220"
-            },
-            {
-                "id":"176",
-                "name":"Sunrise Premium 50g Sachet",
-                "image":"/images/Tea, Coffee and more/t8.avif",
-                "price":"130"
-            },
-            {
-                "id":"177",
-                "name":"Avt Premium Tea 200g Pouch",
-                "image":"/images/Tea, Coffee and more/t9.avif",
-                "price":"95"
-            },
-            {
-                "id":"178",
-                "name":"Bp Strong Tea 500Gm",
-                "image":"/images/Tea, Coffee and more/t10.avif",
-                "price":"119"
-            },
-            {
-                "id":"179",
-                "name":"Spar Instant Coffee 50G",
-                "image":"/images/Tea, Coffee and more/t11.avif",
-                "price":"90"
-            },
-            {
-                "id":"180",
-                "name":"Levista Strong CoffeePouch 50g",
-                "image":"/images/Tea, Coffee and more/t12.avif",
-                "price":"115"
-            }
-
-        ]
-    },
-    {
-        "travel":[
-            {
-                "id":"181",
-                "name":"SAFARI NAPTUNE DUFFLE RED",
-                "image":"/images/Travel & Lugguage/tra1.avif",
-                "price":"400"
-            },
-            {
-                "id":"182",
-                "name":"SAFARI ASTER HARD STROLLEY",
-                "image":"/images/Travel & Lugguage/tra2.avif",
-                "price":"1,999"
-            },
-            {
-                "id":"183",
-                "name":"SAFARI NAPTUNE DUFFLE BLUE",
-                "image":"/images/Travel & Lugguage/tra3.avif",
-                "price":"400"
-            },
-            {
-                "id":"184",
-                "name":"ARISTOCRAT PEARL HARD STROLLY 55 360 RED",
-                "image":"/images/Travel & Lugguage/tra4.avif",
-                "price":"1,800"
-            },
-            {
-                "id":"185",
-                "name":"Wildcraft Hopper 1.0 Laptop Bp Black",
-                "image":"/images/Travel & Lugguage/tra5.avif",
-                "price":"1,599"
-            },
-            {
-                "id":"186",
-                "name":"Wildcraft Streak 3.0 Laptop Bp Plus Blue",
-                "image":"/images/Travel & Lugguage/tra6.avif",
-                "price":"1,299"
-            },
-            {
-                "id":"187",
-                "name":"Aristocrat Estate Strolly 4W Blue 71",
-                "image":"/images/Travel & Lugguage/tra7.avif",
-                "price":"2,500"
-            },
-            {
-                "id":"188",
-                "name":"Wildcraft Imprint1.0 Laptop Bp Pls Blk",
-                "image":"/images/Travel & Lugguage/tra8.avif",
-                "price":"1,800"
-            },
-            {
-                "id":"189",
-                "name":"At Bayview Hard Strolly 4W Silver 78",
-                "image":"/images/Travel & Lugguage/tra9.avif",
-                "price":"7,975"
+                "id": "55",
+                "name": "Orion Chocopie 336Gm",
+                "image": "/images/Biscuits/b12.avif",
+                "price": "145"
             }
         ]
     },
     {
-        "utensils":[
+        "cookware": [
             {
-                "id":"191",
-                "name":"RATAN MAPLE BASKET SET OF 4",
-                "image":"/images/Utensils/u1.avif",
-                "price":"130"
+                "id": "57",
+                "name": " Non Stick Dosa Tawa",
+                "image": "/images/Cookware & Serveware/cook1.avif",
+                "price": "299"
             },
             {
-                "id":"192",
-                "name":"TRUE HOME STAINLESS STEEL CASSEROLE 2L",
-                "image":"/images/Utensils/u2.avif",
-                "price":"250"
+                "id": "58",
+                "name": "Nav Ns Kadai 2.2",
+                "image": "/images/Cookware & Serveware/cook2.avif",
+                "price": "289"
             },
             {
-                "id":"193",
-                "name":"NANONINE SS SPRINT BOTTLE S260 600ML",
-                "image":"/images/Utensils/u3.avif",
-                "price":"85"
+                "id": "59",
+                "name": "Navrang Kadai Mini",
+                "image": "/images/Cookware & Serveware/cook3.avif",
+                "price": "199"
             },
             {
-                "id":"194",
-                "name":"TRUE HOME STAINLESS STEEL CASSEROLE SET OF 3 1.5L",
-                "image":"/images/Utensils/u4.avif",
-                "price":"699"
+                "id": "60",
+                "name": "Navrang Dosa Tava Mini",
+                "image": "/images/Cookware & Serveware/cook4.avif",
+                "price": "199"
             },
             {
-                "id":"195",
-                "name":"RATAN EZEE LOCK CONTAINER 75A SET OF 3 1.5L",
-                "image":"/images/Utensils/u5.avif",
-                "price":"130"
+                "id": "61",
+                "name": "Navrang sauce pan",
+                "image": "/images/Cookware & Serveware/cook5.avif",
+                "price": "222"
             },
             {
-                "id":"196",
-                "name":"RATAN RUBY CONTAINER SET OF 4 WITH SCOOP",
-                "image":"/images/Utensils/u6.avif",
-                "price":"199"
+                "id": "62",
+                "name": "Non Stick Sauce Pan Large",
+                "image": "/images/Cookware & Serveware/cook8.avif",
+                "price": "299"
+            },
+            {
+                "id": "63",
+                "name": "Fry Pan 230 Dia 40Mm",
+                "image": "/images/Cookware & Serveware/cook9.avif",
+                "price": "299"
+            },
+            {
+                "id": "64",
+                "name": "Nonstick Tadka Pan",
+                "image": "/images/Cookware & Serveware/cook10.avif",
+                "price": "199"
+            },
+            {
+                "id": "65",
+                "name": "Hard Annodized Fry Pan",
+                "image": "/images/Cookware & Serveware/cook11.avif",
+                "price": "570"
+            },
+            {
+                "id": "66",
+                "name": "Navrang Appachatty",
+                "image": "/images/Cookware & Serveware/cook12.avif",
+                "price": "479"
+            },
+            {
+                "id": "67",
+                "name": "Hawkins Ha Tava 26 Cm",
+                "image": "/images/Cookware & Serveware/cook13.avif",
+                "price": "799"
             }
-
+        ]
+    },
+    {
+        "daily": [
+            {
+                "id": "68",
+                "name": "Amul Butter 100Gms",
+                "image": "/images/Daily Essensials/amul butter.avif",
+                "price": "45"
+            },
+            {
+                "id": "69",
+                "name": "Amul Chesse Spread 200Gms",
+                "image": "/images/Daily Essensials/amul chesse.avif",
+                "price": "60"
+            },
+            {
+                "id": "70",
+                "name": "Amul Kool Rose 200ml Pet",
+                "image": "/images/Daily Essensials/amul kool.avif",
+                "price": "55"
+            },
+            {
+                "id": "71",
+                "name": "Amul Kool 100ml",
+                "image": "/images/Daily Essensials/amul.avif",
+                "price": "70"
+            },
+            {
+                "id": "72",
+                "name": "Cavin's 100Ml",
+                "image": "/images/Daily Essensials/cavins.avif",
+                "price": "54"
+            },
+            {
+                "id": "73",
+                "name": "Epigamia Strawberry 200ml",
+                "image": "/images/Daily Essensials/epiga smooth.avif",
+                "price": "80"
+            },
+            {
+                "id": "74",
+                "name": "Epigamia Artisanal Curd 400Gm",
+                "image": "/images/Daily Essensials/epigamia.avif",
+                "price": "100"
+            },
+            {
+                "id": "75",
+                "name": "Heritge Rich-Fcm 500ml",
+                "image": "/images/Daily Essensials/heritge rich-fcm 500ml.avif",
+                "price": "130"
+            },
+            {
+                "id": "76",
+                "name": "Milky Mist Paneer 200g",
+                "image": "/images/Daily Essensials/milky mist paneer 200g.avif",
+                "price": "125"
+            },
+            {
+                "id": "77",
+                "name": "Milky Mist Butter 500g",
+                "image": "/images/Daily Essensials/milky mist table.avif",
+                "price": "180"
+            },
+            {
+                "id": "78",
+                "name": "Nestle Milo Rtd 180ml",
+                "image": "/images/Daily Essensials/nestle milo rtd 180ml.avif",
+                "price": "30"
+            },
+            {
+                "id": "79",
+                "name": "Nutoras Processed Cheese 200G",
+                "image": "/images/Daily Essensials/nutoras.avif",
+                "price": "190"
+            }
+        ]
+    },
+    {
+        "drinks": [
+            {
+                "id": "82",
+                "name": "Thums Up 2L",
+                "image": "/images/Drinks and Juices/d1.avif",
+                "price": "75"
+            },
+            {
+                "id": "83",
+                "name": "Red Bull Yellow Edition 250ml",
+                "image": "/images/Drinks and Juices/d2.avif",
+                "price": "125"
+            },
+            {
+                "id": "84",
+                "name": "Sprite",
+                "image": "/images/Drinks and Juices/d3.avif",
+                "price": "40"
+            },
+            {
+                "id": "85",
+                "name": "Coca-Cola 2L",
+                "image": "/images/Drinks and Juices/d4.avif",
+                "price": "99"
+            },
+            {
+                "id": "86",
+                "name": "Fanta 2L",
+                "image": "/images/Drinks and Juices/d5.avif",
+                "price": "75"
+            },
+            {
+                "id": "87",
+                "name": "Sprite 1.25 Lt",
+                "image": "/images/Drinks and Juices/d6.avif",
+                "price": "70"
+            },
+            {
+                "id": "88",
+                "name": "Red Bull Energy Drink 250ml*4",
+                "image": "/images/Drinks and Juices/d7.avif",
+                "price": "480"
+            },
+            {
+                "id": "89",
+                "name": "Maaza Refresh 150 Ml",
+                "image": "/images/Drinks and Juices/d8.avif",
+                "price": "10"
+            },
+            {
+                "id": "90",
+                "name": "Thums Up Can 300ml",
+                "image": "/images/Drinks and Juices/d9.avif",
+                "price": "40"
+            },
+            {
+                "id": "91",
+                "name": "Bovonto 1.5Ltrs",
+                "image": "/images/Drinks and Juices/d10.avif",
+                "price": "80"
+            },
+            {
+                "id": "93",
+                "name": "Fanta oriange 100 Ml",
+                "image": "/images/Drinks and Juices/d12.avif",
+                "price": "25"
+            },
+            {
+                "id": "94",
+                "name": "Coca Cola 1.25 Lt",
+                "image": "/images/Drinks and Juices/d13.avif",
+                "price": "70"
+            }
+        ]
+    },
+    {
+        "fish": [
+            {
+                "id": "95",
+                "name": "Atlantic Salmon Slice",
+                "image": "/images/Fish and Meat/fish1.avif",
+                "price": "674"
+            },
+            {
+                "id": "96",
+                "name": "Hilsa / Ilish Large",
+                "image": "/images/Fish and Meat/fish2.avif",
+                "price": "450"
+            },
+            {
+                "id": "97",
+                "name": "Chicken Broiler Curry Cut",
+                "image": "/images/Fish and Meat/chicken1.avif",
+                "price": "135"
+            },
+            {
+                "id": "98",
+                "name": "Abhi Eggs",
+                "image": "/images/Fish and Meat/egg7.avif",
+                "price": "80"
+            },
+            {
+                "id": "100",
+                "name": "Mullet Whole",
+                "image": "/images/Fish and Meat/fish4.avif",
+                "price": "430"
+            },
+            {
+                "id": "101",
+                "name": "Paiya Whole",
+                "image": "/images/Fish and Meat/fish5.avif",
+                "price": "230"
+            },
+            {
+                "id": "102",
+                "name": "Silver Belly Whole",
+                "image": "/images/Fish and Meat/fish6.avif",
+                "price": "185"
+            },
+            {
+                "id": "103",
+                "name": "Rohu Whole",
+                "image": "/images/Fish and Meat/fish8.avif",
+                "price": "236"
+            },
+            {
+                "id": "104",
+                "name": "White Prawns Whole",
+                "image": "/images/Fish and Meat/fish10.avif",
+                "price": "243"
+            },
+            {
+                "id": "105",
+                "name": "Sardine Whole",
+                "image": "/images/Fish and Meat/fish11.avif",
+                "price": "114.50"
+            },
+            {
+                "id": "106",
+                "name": "Charapone Whole",
+                "image": "/images/Fish and Meat/fish12.avif",
+                "price": "250"
+            },
+            {
+                "id": "107",
+                "name": "Thengda Whole",
+                "image": "/images/Fish and Meat/fish13.avif",
+                "price": "184"
+            }
+        ]
+    },
+    {
+        "gas": [
+            {
+                "id": "108",
+                "name": "Prestige Marvel Plus 3 Burner Gas Stove Black Body",
+                "image": "/images/Gas stoves & range/gas4.avif",
+                "price": "5,057.50"
+            },
+            {
+                "id": "110",
+                "name": "Prestige Magic 4 Burner Gas Stove Glasstop",
+                "image": "/images/Gas stoves & range/gas5.avif",
+                "price": "5,277"
+            },
+            {
+                "id": "111",
+                "name": "Prestige Marvel Plus 2 Burner Gas Stove Black Body",
+                "image": "/images/Gas stoves & range/gas3.avif",
+                "price": "4,100"
+            },
+            {
+                "id": "112",
+                "name": "Master Perfect Stainless Steel Mini 2 Burner Gas Stove",
+                "image": "/images/Gas stoves & range/gas2.avif",
+                "price": "1,200"
+            },
+            {
+                "id": "113",
+                "name": "Prestige Stainless Steel Gas Stove Star 2 Burner",
+                "image": "/images/Gas stoves & range/gas1.avif",
+                "price": "2,330"
+            }
+        ]
+    },
+    {
+        "homecare": [
+            {
+                "id": "114",
+                "name": "Domex Toilet Cleaner 1L",
+                "image": "/images/Home Care/home1.avif",
+                "price": "235"
+            },
+            {
+                "id": "115",
+                "name": "Harpic Power Cleaner 1L",
+                "image": "/images/Home Care/home2.avif",
+                "price": "215"
+            },
+            {
+                "id": "116",
+                "name": "SPAR Home Cleaning Kit",
+                "image": "/images/Home Care/home3.avif",
+                "price": "152"
+            },
+            {
+                "id": "117",
+                "name": "Lizol Floor Cleaner Lavender 1L",
+                "image": "/images/Home Care/home4.avif",
+                "price": "220"
+            },
+            {
+                "id": "118",
+                "name": "Nimyle Floor Cleaner Herbal",
+                "image": "/images/Home Care/home5.avif",
+                "price": "175"
+            },
+            {
+                "id": "119",
+                "name": "Bp Phenyl Pine 1L Po2",
+                "image": "/images/Home Care/home6.avif",
+                "price": "110"
+            },
+            {
+                "id": "120",
+                "name": "Spar Toilet Cleaner Original 1L",
+                "image": "/images/Home Care/home7.avif",
+                "price": "199"
+            },
+            {
+                "id": "121",
+                "name": "Bp Rose Phenyl 5L",
+                "image": "/images/Home Care/home8.avif",
+                "price": "249"
+            },
+            {
+                "id": "122",
+                "name": "Bp Phenyl Lavendar 1L",
+                "image": "/images/Home Care/home9.avif",
+                "price": "140"
+            }
+        ]
+    },
+    {
+        "mixer": [
+            {
+                "id": "123",
+                "name": "Maharaja Mixer 3 Jar",
+                "image": "/images/Juicer Mixer/mix1.avif",
+                "price": "2,399"
+            },
+            {
+                "id": "124",
+                "name": "Preethi Zodiac MG-218 Mixer",
+                "image": "/images/Juicer Mixer/mix2.avif",
+                "price": "6,999"
+            },
+            {
+                "id": "125",
+                "name": "Crescent Electric Kettle 1.8L",
+                "image": "/images/Juicer Mixer/mix3.avif",
+                "price": "599"
+            },
+            {
+                "id": "126",
+                "name": "Maharaja Blender Easyblend",
+                "image": "/images/Juicer Mixer/mix4.avif",
+                "price": "1,699"
+            },
+            {
+                "id": "127",
+                "name": "Prestige 1500W 1.7L Kettle ",
+                "image": "/images/Juicer Mixer/mix5.avif",
+                "price": "849"
+            },
+            {
+                "id": "128",
+                "name": "Prestige 1.5L Steel Kettle",
+                "image": "/images/Juicer Mixer/mix6.avif",
+                "price": "649"
+            }
+        ]
+    },
+    {
+        "masala": [
+            {
+                "id": "129",
+                "name": "Sakthi Turmeric Powder 100g",
+                "image": "/images/Masala & Dry Fruits/m1.avif",
+                "price": "46"
+            },
+            {
+                "id": "130",
+                "name": "Select Sesamum White 50g",
+                "image": "/images/Masala & Dry Fruits/m2.avif",
+                "price": "25"
+            },
+            {
+                "id": "131",
+                "name": "Sakthi Bajji Bonda Masala 200g",
+                "image": "/images/Masala & Dry Fruits/m3.avif",
+                "price": "40"
+            },
+            {
+                "id": "132",
+                "name": "SPAR Coriander Powder",
+                "image": "/images/Masala & Dry Fruits/m4.avif",
+                "price": "30"
+            },
+            {
+                "id": "133",
+                "name": "Sakthi Rasam Powder 100g",
+                "image": "/images/Masala & Dry Fruits/m5.avif",
+                "price": "80"
+            },
+            {
+                "id": "134",
+                "name": "Spar Select Ajwain 50g",
+                "image": "/images/Masala & Dry Fruits/m6.avif",
+                "price": "28"
+            },
+            {
+                "id": "135",
+                "name": "Sakthi Black Pepper 50g",
+                "image": "/images/Masala & Dry Fruits/m7.avif",
+                "price": "68"
+            },
+            {
+                "id": "136",
+                "name": "Sakthi Coriander Powder",
+                "image": "/images/Masala & Dry Fruits/m8.avif",
+                "price": "38"
+            },
+            {
+                "id": "137",
+                "name": "Mtr Special garam Masala 50g",
+                "image": "/images/Masala & Dry Fruits/m9.avif",
+                "price": "55"
+            },
+            {
+                "id": "138",
+                "name": "Spar Select Biryani Phool 50g",
+                "image": "/images/Masala & Dry Fruits/m10.avif",
+                "price": "69"
+            },
+            {
+                "id": "139",
+                "name": "Sakthi Sambar Powder 100g",
+                "image": "/images/Masala & Dry Fruits/m11.avif",
+                "price": "55"
+            },
+            {
+                "id": "140",
+                "name": "Sakthi Biriyani Masala 50g",
+                "image": "/images/Masala & Dry Fruits/m12.avif",
+                "price": "46"
+            }
+        ]
+    },
+    {
+        "packagedfood": [
+            {
+                "id": "142",
+                "name": "Maggi Masala Noodles 560g",
+                "image": "/images/Packaged Food/food1.avif",
+                "price": "100"
+            },
+            {
+                "id": "143",
+                "name": "Quaker Oatmeal 1Kg Refill Pack",
+                "image": "/images/Packaged Food/food2.avif",
+                "price": "199"
+            },
+            {
+                "id": "144",
+                "name": "Elite Bar Cake Orange 120G",
+                "image": "/images/Packaged Food/food3.avif",
+                "price": "40"
+            },
+            {
+                "id": "145",
+                "name": "Kellogg Corn Flakes",
+                "image": "/images/Packaged Food/food4.avif",
+                "price": "310"
+            },
+            {
+                "id": "146",
+                "name": "Elite Bar Cake Chocolate 120G",
+                "image": "/images/Packaged Food/food5.avif",
+                "price": "45"
+            },
+            {
+                "id": "147",
+                "name": "Kelloggs Chocos",
+                "image": "/images/Packaged Food/food6.avif",
+                "price": "144"
+            },
+            {
+                "id": "148",
+                "name": "Kalonji Masala Paste 100g",
+                "image": "/images/Packaged Food/food7.avif",
+                "price": "59"
+            },
+            {
+                "id": "149",
+                "name": "Maggi Masala Noodles 70g",
+                "image": "/images/Packaged Food/food8.avif",
+                "price": "15"
+            },
+            {
+                "id": "150",
+                "name": "Spar Tomato Ketchup 950gm",
+                "image": "/images/Packaged Food/food9.avif",
+                "price": "75"
+            },
+            {
+                "id": "151",
+                "name": "Nutella Choco Spread 350g",
+                "image": "/images/Packaged Food/food10.avif",
+                "price": "345"
+            },
+            {
+                "id": "152",
+                "name": "Kissan Mixed Fruit Jam",
+                "image": "/images/Packaged Food/food11.avif",
+                "price": "25"
+            },
+            {
+                "id": "153",
+                "name": "Peanut Butter Creamy 350g",
+                "image": "/images/Packaged Food/food12.avif",
+                "price": "145"
+            }
+        ]
+    },
+    {
+        "tableware": [
+            {
+                "id": "155",
+                "name": "LARAH DINNER SET OF 35",
+                "image": "/images/Tableware & Dinnerware/Table1.avif",
+                "price": "1,630"
+            },
+            {
+                "id": "156",
+                "name": "CELLO IMPERIAL DINNER SET",
+                "image": "/images/Tableware & Dinnerware/Table2.avif",
+                "price": "1635"
+            },
+            {
+                "id": "157",
+                "name": "LARAH DINNER SET OF 12",
+                "image": "/images/Tableware & Dinnerware/Table3.avif",
+                "price": "599"
+            },
+            {
+                "id": "158",
+                "name": "DINESMART SPIRAL MELAMINE DINNER SETS 29PC",
+                "image": "/images/Tableware & Dinnerware/Table4.avif",
+                "price": "1,190"
+            },
+            {
+                "id": "159",
+                "name": "CELLO DAZZLE DINNER SET OF 22",
+                "image": "/images/Tableware & Dinnerware/Table5.avif",
+                "price": "1,099"
+            },
+            {
+                "id": "160",
+                "name": "LUMINARCSIMPLY KEON SS1 IND DINNER SET 21 PCS",
+                "image": "/images/Tableware & Dinnerware/Table6.avif",
+                "price": "2,999"
+            },
+            {
+                "id": "161",
+                "name": "LUMI TEMP SODO ANDRIY BLACK DINNER SET 33 PCS",
+                "image": "/images/Tableware & Dinnerware/Table7.avif",
+                "price": "4,000"
+            },
+            {
+                "id": "162",
+                "name": "LUMINARC TEMP SODO ELISA DINNER SET 21 PCS",
+                "image": "/images/Tableware & Dinnerware/Table8.avif",
+                "price": "2,500"
+            },
+            {
+                "id": "163",
+                "name": "LUMINARC TEMP SODO PEACHY DINNER SET 33 PCS",
+                "image": "/images/Tableware & Dinnerware/Table9.avif",
+                "price": "3,699"
+            },
+            {
+                "id": "164",
+                "name": "LARAH DINNER SET 10PCS",
+                "image": "/images/Tableware & Dinnerware/Table10.avif",
+                "price": "499"
+            },
+            {
+                "id": "165",
+                "name": "EURO BUFFET PLATE 13 INCH",
+                "image": "/images/Tableware & Dinnerware/Table11.avif",
+                "price": "350"
+            },
+            {
+                "id": "166",
+                "name": "HAMMER VEG BOWL BLACK",
+                "image": "/images/Tableware & Dinnerware/Table12.avif",
+                "price": "99"
+            },
+            {
+                "id": "167",
+                "name": "Rc Coffee Mug Black Single",
+                "image": "/images/Tableware & Dinnerware/Table13.avif",
+                "price": "59"
+            },
+            {
+                "id": "168",
+                "name": "COOKWELL SERVING BOWLSET",
+                "image": "/images/Tableware & Dinnerware/Table14.avif",
+                "price": "150"
+            }
+        ]
+    },
+    {
+        "tea": [
+            {
+                "id": "169",
+                "name": "Bru Inst Coffee 50Gms",
+                "image": "/images/Tea, Coffee and more/t1.avif",
+                "price": "115"
+            },
+            {
+                "id": "170",
+                "name": "Brookebond Redlabel Nat 250G",
+                "image": "/images/Tea, Coffee and more/t2.avif",
+                "price": "175"
+            },
+            {
+                "id": "171",
+                "name": "Green Label Coffee 100Gms",
+                "image": "/images/Tea, Coffee and more/t3.avif",
+                "price": "55"
+            },
+            {
+                "id": "172",
+                "name": "Brok Bnd Red Lbl500G",
+                "image": "/images/Tea, Coffee and more/t4.avif",
+                "price": "300"
+            },
+            {
+                "id": "173",
+                "name": "Brooke Taj Mahal Tea 500G",
+                "image": "/images/Tea, Coffee and more/t5.avif",
+                "price": "450"
+            },
+            {
+                "id": "174",
+                "name": "French Press Coffee 250G",
+                "image": "/images/Tea, Coffee and more/t6.avif",
+                "price": "490"
+            },
+            {
+                "id": "175",
+                "name": "Bru Coffee Instent 100Gms",
+                "image": "/images/Tea, Coffee and more/t7.avif",
+                "price": "220"
+            },
+            {
+                "id": "176",
+                "name": "Sunrise Premium 50g Sachet",
+                "image": "/images/Tea, Coffee and more/t8.avif",
+                "price": "130"
+            },
+            {
+                "id": "177",
+                "name": "Avt Premium Tea 200g Pouch",
+                "image": "/images/Tea, Coffee and more/t9.avif",
+                "price": "95"
+            },
+            {
+                "id": "178",
+                "name": "Bp Strong Tea 500Gm",
+                "image": "/images/Tea, Coffee and more/t10.avif",
+                "price": "119"
+            },
+            {
+                "id": "179",
+                "name": "Spar Instant Coffee 50G",
+                "image": "/images/Tea, Coffee and more/t11.avif",
+                "price": "90"
+            },
+            {
+                "id": "180",
+                "name": "Levista Strong CoffeePouch 50g",
+                "image": "/images/Tea, Coffee and more/t12.avif",
+                "price": "115"
+            }
+        ]
+    },
+    {
+        "travel": [
+            {
+                "id": "181",
+                "name": "SAFARI NAPTUNE DUFFLE RED",
+                "image": "/images/Travel & Lugguage/tra1.avif",
+                "price": "400"
+            },
+            {
+                "id": "182",
+                "name": "SAFARI ASTER HARD STROLLEY",
+                "image": "/images/Travel & Lugguage/tra2.avif",
+                "price": "1,999"
+            },
+            {
+                "id": "183",
+                "name": "SAFARI NAPTUNE DUFFLE BLUE",
+                "image": "/images/Travel & Lugguage/tra3.avif",
+                "price": "400"
+            },
+            {
+                "id": "184",
+                "name": "ARISTOCRAT PEARL HARD STROLLY 55 360 RED",
+                "image": "/images/Travel & Lugguage/tra4.avif",
+                "price": "1,800"
+            },
+            {
+                "id": "185",
+                "name": "Wildcraft Hopper 1.0 Laptop Bp Black",
+                "image": "/images/Travel & Lugguage/tra5.avif",
+                "price": "1,599"
+            },
+            {
+                "id": "186",
+                "name": "Wildcraft Streak 3.0 Laptop Bp Plus Blue",
+                "image": "/images/Travel & Lugguage/tra6.avif",
+                "price": "1,299"
+            },
+            {
+                "id": "187",
+                "name": "Aristocrat Estate Strolly 4W Blue 71",
+                "image": "/images/Travel & Lugguage/tra7.avif",
+                "price": "2,500"
+            },
+            {
+                "id": "188",
+                "name": "Wildcraft Imprint1.0 Laptop Bp Pls Blk",
+                "image": "/images/Travel & Lugguage/tra8.avif",
+                "price": "1,800"
+            },
+            {
+                "id": "189",
+                "name": "At Bayview Hard Strolly 4W Silver 78",
+                "image": "/images/Travel & Lugguage/tra9.avif",
+                "price": "7,975"
+            }
+        ]
+    },
+    {
+        "utensils": [
+            {
+                "id": "191",
+                "name": "RATAN MAPLE BASKET SET OF 4",
+                "image": "/images/Utensils/u1.avif",
+                "price": "130"
+            },
+            {
+                "id": "192",
+                "name": "TRUE HOME STAINLESS STEEL CASSEROLE 2L",
+                "image": "/images/Utensils/u2.avif",
+                "price": "250"
+            },
+            {
+                "id": "193",
+                "name": "NANONINE SS SPRINT BOTTLE S260 600ML",
+                "image": "/images/Utensils/u3.avif",
+                "price": "85"
+            },
+            {
+                "id": "194",
+                "name": "TRUE HOME STAINLESS STEEL CASSEROLE SET OF 3 1.5L",
+                "image": "/images/Utensils/u4.avif",
+                "price": "699"
+            },
+            {
+                "id": "195",
+                "name": "RATAN EZEE LOCK CONTAINER 75A SET OF 3 1.5L",
+                "image": "/images/Utensils/u5.avif",
+                "price": "130"
+            },
+            {
+                "id": "196",
+                "name": "RATAN RUBY CONTAINER SET OF 4 WITH SCOOP",
+                "image": "/images/Utensils/u6.avif",
+                "price": "199"
+            }
         ]
     }
 ]

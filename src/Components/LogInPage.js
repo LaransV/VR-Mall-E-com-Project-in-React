@@ -10,14 +10,14 @@ import { useNavigate } from 'react-router-dom';
 
 function LogInPage() {
   const navigate = useNavigate();
- //Default Admin Name and Password
+  //Default Admin Name and Password
   const [adminame, setAdminame] = useState("Larans");
   const [admipassword, setAdmipassword] = useState(123)
 
   sessionStorage.setItem('adminName', adminame);
-  sessionStorage.setItem('adminPassword' , admipassword)
+  sessionStorage.setItem('adminPassword', admipassword)
 
-    // Login Form Validation
+  // Login Form Validation
 
   const [name, setName] = useState("");
   const [password, setPassword] = useState("")
@@ -39,7 +39,7 @@ function LogInPage() {
       confirmPassword.trim() === "" ||
       email.trim() === ""
     ) {
-      
+
       alert("Please fill in all fields");
       return;
     }
@@ -59,7 +59,7 @@ function LogInPage() {
     setEmail('');
 
     alert('Congratulations! Your Registration Was Successful');
-   
+
   };
 
   /// Handle for Login
@@ -72,24 +72,24 @@ function LogInPage() {
     const storedName = sessionStorage.getItem('registeredName');
     const storedPassword = sessionStorage.getItem('registeredPassword');
 
-    if (name.trim() === "" || password.trim() === "" ) {
+    if (name.trim() === "" || password.trim() === "") {
       alert("Please fill in all fields");
     }
-     else if (name === storedName && password === storedPassword) {
-        navigate('/home')
-      } 
-     else if (name === adminname && password === adminpassword){
+    else if (name === storedName && password === storedPassword) {
       navigate('/home')
-     }
-      else {
+    }
+    else if (name === adminname && password === adminpassword) {
+      navigate('/home')
+    }
+    else {
       alert("Invalid Name and Password Please SingnUp and then LogIn.");
     }
 
   };
 
- const Navi = ()=>{
-   navigate('/LogInPage')
- }
+  const Navi = () => {
+    navigate('/LogInPage')
+  }
   return (
     <>
       <nav className='loginNav'>
@@ -105,7 +105,7 @@ function LogInPage() {
 
       {/* Login Form */}
       <div className='loginform'>
-        <form action=''  onSubmit={handleLogin}>
+        <form action='' onSubmit={handleLogin}>
           <h1 className='form_head'>LogIn</h1>
 
           <div className='input'>
@@ -134,35 +134,35 @@ function LogInPage() {
                 <h4 className="modal-title">SIGN UP</h4>
                 <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
               </div>
-        <form onSubmit={handleRegistration}>
-              <div className="modal-body" style={{ padding: '10px 10px 10px 130px' }}>
+              <form onSubmit={handleRegistration}>
+                <div className="modal-body" style={{ padding: '10px 10px 10px 130px' }}>
 
-                <div style={{ marginBottom: '10px' }}>
-                  <label for='username' style={{ display: 'block', margin: '0px auto 5px auto' }}>Name :</label>
-                  <input name='name' for='username' required type='text' value={registerName} onChange={(e)=> setRegisterName(e.target.value)} />
+                  <div style={{ marginBottom: '10px' }}>
+                    <label for='username' style={{ display: 'block', margin: '0px auto 5px auto' }}>Name :</label>
+                    <input name='name' for='username' required type='text' value={registerName} onChange={(e) => setRegisterName(e.target.value)} />
+                  </div>
+
+                  <div style={{ marginBottom: '10px' }}>
+                    <label for='password' style={{ display: 'block' }}>Password :</label>
+                    <input name='name' for='password' type='password' required value={registerPassword} onChange={(e) => setRegisterPassword(e.target.value)} />
+                  </div>
+
+                  <div style={{ marginBottom: '10px' }}>
+                    <label for='Cpassword' style={{ display: 'block' }}>Confirm Password :</label>
+                    <input name='name' for='Cpassword' type='password' required value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
+                  </div>
+
+                  <div style={{ marginBottom: '10px' }}>
+                    <label for='email' style={{ display: 'block' }}>Email :</label>
+                    <input name='name' for='email' type='email' required value={email} onChange={(e) => setEmail(e.target.value)} />
+                  </div>
+
+                  <div style={{ margintap: '40px', marginRight: '100px', textAlign: 'center' }}>
+                    <button type="submit" className="btn btn-primary">Register</button>
+                  </div>
+
                 </div>
-
-                <div style={{ marginBottom: '10px' }}>
-                  <label for='password' style={{ display: 'block' }}>Password :</label>
-                  <input name='name' for='password' type='password' required value={registerPassword} onChange={(e)=> setRegisterPassword(e.target.value)} />
-                </div>
-
-                <div style={{ marginBottom: '10px' }}>
-                  <label for='Cpassword' style={{ display: 'block' }}>Confirm Password :</label>
-                  <input name='name' for='Cpassword' type='password' required value={confirmPassword} onChange={(e)=> setConfirmPassword(e.target.value)} />
-                </div>
-
-                <div style={{ marginBottom: '10px' }}>
-                  <label for='email' style={{ display: 'block' }}>Email :</label>
-                  <input name='name' for='email' type='email' required value={email} onChange={(e)=> setEmail(e.target.value)}/>
-                </div>
-
-                <div style={{ margintap: '40px', marginRight: '100px', textAlign: 'center' }}>
-                  <button type="submit" className="btn btn-primary">Register</button> 
-                </div>
-
-              </div>
-           </form>
+              </form>
               <div className="modal-footer">
                 <p style={{ fontSize: '18px' }}>Already you have an Account</p>
                 <button type='button' className='btn btn-primary' data-bs-dismiss="modal" onClick={Navi} >  LogIn </button>
@@ -171,10 +171,10 @@ function LogInPage() {
             </div>
           </div>
         </div>
-       
+
       </div>
 
-     
+
     </>
   )
 }

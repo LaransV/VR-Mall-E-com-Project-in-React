@@ -31,10 +31,10 @@ function Home() {
 
 
             <div>
- 
+
                 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-                    
+
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -42,7 +42,7 @@ function Home() {
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
                     </div>
 
-                    
+
                     <div class="carousel-inner" >
                         <div class="carousel-item active">
                             <img src={ph5} alt="Los Angeles" class="d-block w-100" style={{ height: '300px' }} />
@@ -71,11 +71,11 @@ function Home() {
 
 
 
-            <h2 style={{margin:'20px auto 10px auto', textAlign:'center'}}>Shop by Category</h2>
+            <h2 style={{ margin: '20px auto 10px auto', textAlign: 'center' }}>Shop by Category</h2>
             <div id='Home'>
                 {categorys.map((productData, index) => (
                     <div className="homeproduct" key={index}>
-                        
+
                         <Link to={productData.pathname} style={{ color: "white", textDecoration: "none" }}> <img style={{ width: "250px", height: "400" }} src={productData.image} alt={productData.name} /></Link>
                     </div>
                 ))}

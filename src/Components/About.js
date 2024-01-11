@@ -7,7 +7,7 @@ import Footer from './Footer';
 function About() {
     return (
         <>
-        <Navbar/>
+            <Navbar />
             <div id="about">
 
                 <h1 className="abouth1" >About Us</h1>
@@ -81,7 +81,7 @@ function About() {
 
 
             </div>
-            <Footer/>
+            <Footer />
         </>
 
     )

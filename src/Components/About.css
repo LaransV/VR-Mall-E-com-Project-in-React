@@ -1,75 +1,85 @@
-.abouth1{
+.abouth1 {
     text-align: center;
     margin: 100px 0px 100px 0px;
     color: #0e314c;
 }
 
-.AboutUs{
+.AboutUs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: #0e314c;
     margin: 0px 30px 0px 30px;
 }
-#about p{
+
+#about p {
     color: #6084a4;
 }
-.AboutUs1 img{
+
+.AboutUs1 img {
     width: 100%;
     height: 80%;
 }
 
-.AboutUs1 p{
+.AboutUs1 p {
     text-align: start;
 }
-.AboutUs1{
+
+.AboutUs1 {
     margin: 10px 20px 10px 20px;
     min-width: 45%;
-    
+
 }
 
-.History{
+.History {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0px 30px 0px 30px;
 }
-.History-1{
-    margin: 10px 30px 20px 20px;
-}  
 
-.History-1 h2{
+.History-1 {
+    margin: 10px 30px 20px 20px;
+}
+
+.History-1 h2 {
     text-align: center;
-    color: #0e314c; 
+    color: #0e314c;
 }
-.our-team-1 h3 , h4{
-    color: #0e314c; 
-    text-align: center;    
+
+.our-team-1 h3,
+h4 {
+    color: #0e314c;
+    text-align: center;
 }
-.h1{
+
+.h1 {
     text-align: center;
     color: #0e314c;
     margin-top: 50px;
 }
-.p1{
+
+.p1 {
     text-align: center;
     max-width: 520px;
     margin: 0 auto;
 }
-.our-team{
+
+.our-team {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 40px 30px 30px 30px;
 }
-.our-team-1{
+
+.our-team-1 {
     margin: 20px 20px 20px 20px;
     border: 2px dashed #d0f0b9;
     background-color: #f1eaea;
     padding: 10px 20px 10px 20px;
 }
 
-.our-team-1:hover{
+.our-team-1:hover {
     transform: translateY(-10px);
     transition: .5s;
 }

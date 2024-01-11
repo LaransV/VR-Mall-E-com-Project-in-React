@@ -8,7 +8,7 @@ import logo from '../image/logo.png';
 function Footer() {
   return (
     <div className='footer'>
-      <div className="logo" style={{ display: "flex", flexDirection: "row", backgroundColor:'none' }}>
+      <div className="logo" style={{ display: "flex", flexDirection: "row", backgroundColor: 'none' }}>
         <img src={logo} className="rounded-pill" alt="logo" style={{ width: "45px", height: "37px", margin: "5px 10px 5px 5px", display: "inline", marginTop: '15px' }}></img>
         <h5 style={{ color: 'white', marginTop: '20px' }}>VR MALL</h5>
       </div>
@@ -50,8 +50,8 @@ function Footer() {
       </div>
 
       <footer>
-        <hr style={{color:"white"}}/>
-        <p style={{ margin: '20px auto 20px auto', color:'white'}}> © 2024 VR MALL.</p>
+        <hr style={{ color: "white" }} />
+        <p style={{ margin: '20px auto 20px auto', color: 'white' }}> © 2024 VR MALL.</p>
         <hr />
       </footer>
 
