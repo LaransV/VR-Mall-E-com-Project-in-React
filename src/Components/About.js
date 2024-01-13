@@ -86,5 +86,6 @@ function About() {
 
     )
 }
+// eslint-disable-next-line
 
 export default About;

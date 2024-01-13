@@ -59,4 +59,6 @@ function Footer() {
   )
 }
 
+// eslint-disable-next-line
+
 export default Footer;

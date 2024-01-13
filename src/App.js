@@ -1,7 +1,7 @@
 import './App.css';
 import LogInPage from './Components/LogInPage';
 import Login from './Components/Login';
-import { BrowserRouter , Router , Routes , Route } from 'react-router-dom';
+import { BrowserRouter , Routes , Route } from 'react-router-dom';
 import Home from './Components/Home';
 import Vegetable from './Components/Categorys/vegetable';
 import About from './Components/About';
@@ -66,5 +66,7 @@ function App() {
    </>
   );
 }
+// eslint-disable-next-line
+
 
 export default App;
