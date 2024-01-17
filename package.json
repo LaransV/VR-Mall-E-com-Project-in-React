@@ -1,4 +1,5 @@
 { 
+  "homepage": "https://LaransV.github.io/VR-Mall-E-com-Project-in-React/",
   "name": "e_com_web_project",
   "version": "0.1.0",
   "private": true,
@@ -23,6 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,6 +37,10 @@
       "react-app/jest"
     ]
   },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^1.0.0"
+  },
+  
   "browserslist": {
     "production": [
       ">0.2%",
