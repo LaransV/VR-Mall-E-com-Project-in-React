@@ -3,6 +3,7 @@ import "./NavAndFoot.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faWhatsapp, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import logo from '../image/logo.png';
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -33,10 +34,10 @@ function Footer() {
         <div>
           <h3>Quick links</h3><br />
 
-          <p><a href='#'>Home</a></p>
-          <p><a href='#'>About</a></p>
-          <p><a href='#'>Services</a></p>
-          <p><a href='#'>Contact Us</a></p>
+          <p><Link to='/home'>Home</Link></p>
+          <p><Link to='/about'>About</Link></p>
+          <p><Link to='/home'>Services</Link></p>
+          <p><Link to='/home'>Contact Us</Link></p>
         </div>
 
         <div>
@@ -59,6 +60,5 @@ function Footer() {
   )
 }
 
-// eslint-disable-next-line
 
 export default Footer;

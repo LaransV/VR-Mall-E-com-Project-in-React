@@ -6,7 +6,7 @@ import ph4 from '../image/Home/add3.webp';
 import ph5 from '../image/Home/add4.webp';
 import Footer from './Footer';
 import { useState } from 'react';
-import jsonData from '../JsonFiles/home.json'
+import jsonData from '../JsonFiles/home.json';
 import { Link } from 'react-router-dom';
 import '../Components/Categorys/Common.css';
 
@@ -16,12 +16,15 @@ function Home() {
 
     const [categorys, setCategorys] = useState([]);
 
+
     useEffect(() => {
 
         const storedData = jsonData || [];
         setCategorys(storedData[0]?.category || []);
 
     }, []);
+    console.log(categorys);
+
 
     return (
         <div>
@@ -75,8 +78,8 @@ function Home() {
             <div id='Home'>
                 {categorys.map((productData, index) => (
                     <div className="homeproduct" key={index}>
-
-                        <Link to={productData.pathname} style={{ color: "white", textDecoration: "none" }}> <img style={{ width: "250px", height: "400" }} src={productData.image} alt={productData.name} /></Link>
+                        <Link to={productData.pathname} style={{ color: "white", textDecoration: "none" }}>
+                            <img style={{ width: "250px", height: "400" }} src={productData.image} alt={productData.name} /></Link>
                     </div>
                 ))}
             </div>

@@ -13,7 +13,7 @@ function About() {
                 <h1 className="abouth1" >About Us</h1>
                 <div className="AboutUs" >
                     <div className="AboutUs1">
-                        <img src={Aboutphoto1}></img>
+                        <img src={Aboutphoto1} alt="img"></img>
                     </div>
 
                     <div className="AboutUs1">
