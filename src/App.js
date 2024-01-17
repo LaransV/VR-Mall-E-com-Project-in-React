@@ -34,10 +34,10 @@ function App() {
         <Routes>
             <Route exact path='/' element={<Login/>}></Route>
             <Route path='/loginpage' element={<LogInPage/>}></Route>
-            {/* <Route path="/home" element={<Home/>}/> */}
+            
             
             {regName || adminName ? <Route path="/home" element={<Home/>}/> : <Route path="/loginpage" element={<LogInPage />} /> }
-
+             <Route path="/home" element={<Home/>}/> 
             {/* <Route path="/login" element={<LogInPage />} /> */}
             <Route path='/vegetable' element={<Vegetable/>}></Route>
             <Route path='/about' element={<About/>}></Route>
